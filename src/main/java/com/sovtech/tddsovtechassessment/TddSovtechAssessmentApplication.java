@@ -23,6 +23,7 @@ public class TddSovtechAssessmentApplication {
 
 
         return new OpenAPI()
+
                 .components(new Components())
                 .addServersItem(new Server().url("/"))
                 .info(new Info().title("TDD Sovtech Ronald Mthombeni Assessment").version("1.0")).
